@@ -1,6 +1,6 @@
 import requests
 
-api_key = "8cc7e047207e95312892e49b10b51110"  # Substitua pela sua chave de API
+api_key = ":)"  # Substitua pela sua chave de API
 
 def get_coordinates(city, state, country, api_key):
     url = f"http://api.openweathermap.org/geo/1.0/direct?q={city},{state},{country}&limit=1&appid={api_key}"
